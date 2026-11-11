@@ -1,0 +1,40 @@
+@use "variables" as *;
+
+:root {
+    --color-principal: #{$color-principal};
+    --color-acento: #{$color-acento};
+    --color-suave: #{$color-suave};
+}
+
+body {
+    font-family: "font-effect-shadow-multiple";
+    background-color: $color-fondo;
+    color: $color-texto;
+}
+
+// Anidamiento: los h1 y p que están dentro de .encabezado
+.encabezado {
+    background-color: $color-principal;
+    margin-bottom: 24px;
+    @include caja(24px); // Llamada al mixin
+
+    h1 {
+        color: #FFFFFF;
+    }
+
+    p {
+        color: #E3F2E3;
+    }
+}
+
+// Pseudoclase con & (:hover dentro de .tarjeta)
+.tarjeta {
+    background-color: #FFFFFF;
+    border: 1px solid $color-suave;
+    @include caja(16px);
+    transition: transform 0.3s;
+
+    &:hover {
+        transform: translateY(-6px);
+    }
+}

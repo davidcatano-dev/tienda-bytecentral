@@ -1,0 +1,15 @@
+// Variables de Sass
+$color-principal: #1B5E20;
+$color-acento: #F9A825;
+$color-fondo: #F4F7F2;
+$color-texto: #1F2933;
+$color-suave: #DDEBDD;
+$radio: 12px;
+$sombra: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+// Mixin reutilizable para tarjetas y cajas
+@mixin caja($relleno: 16px) {
+    padding: $relleno;
+    border-radius: $radio;
+    box-shadow: $sombra;
+}
