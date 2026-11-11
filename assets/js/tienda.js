@@ -16,7 +16,8 @@ const productos = [
     { id: 5, nombre: "Aire Acondicionado Inverter 12k BTU", categoria: "electrodomesticos", precio: 2100000, wattsAntes: 1400, wattsDespues: 900, horasDia: 6 },
     { id: 6, nombre: "Regleta Inteligente EcoSwitch", categoria: "electrodomesticos", precio: 65000, wattsAntes: 15, wattsDespues: 0, horasDia: 20 },
     { id: 7, nombre: "Calentador Solar de Agua 150L", categoria: "solar", precio: 1200000, wattsAntes: 3500, wattsDespues: 0, horasDia: 0.5 },
-    { id: 8, nombre: "Kit Panel Solar Autónomo 550 W", categoria: "solar", precio: 2400000, wattsAntes: 550, wattsDespues: 0, horasDia: 4.5 }
+    { id: 8, nombre: "Kit Panel Solar Autónomo 50 W", categoria: "solar", precio: 2400000, wattsAntes: 550, wattsDespues: 0, horasDia: 4.5 },
+    { id: 9, nombre: "Kit Panel Solar Dinamico", categoria: "solar", precio: 256000, wattsAntes: 550, wattsDespues: 0, horasDia: 3.5 }
 ];
 
 let carrito = [];
