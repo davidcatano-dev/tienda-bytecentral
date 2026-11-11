@@ -161,6 +161,7 @@ document.addEventListener("DOMContentLoaded", function () {
         contenedorProductos.addEventListener("click", function (e) {
             if (e.target && e.target.dataset.id) {
                 agregarAlCarrito(Number(e.target.dataset.id));
+                alert("Producto agregado al carrito.");
             }
         });
     }
